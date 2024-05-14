@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+<head>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet" type="text/css"/>
+
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome</h1>
+<a th:href="@{/register}">Register</a>
+<div sec:authorize="isAuthenticated()">
+    <a th:href="@{/logout}">
+        <button type="submit">Logout</button></a>
+
+</div>
+<div sec:authorize="hasRole('ADMIN_ROLE')">
+    <a th:href="@{/customer-list}">Admin Dashboard</a>
+</div>
+
+<div sec:authorize="hasRole('USER_ROLE')">
+    <a th:href="@{/customerView}">User Dashboard</a>
+</div>
+</body>
+</html>

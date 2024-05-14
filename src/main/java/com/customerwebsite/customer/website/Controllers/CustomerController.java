@@ -6,11 +6,13 @@ import com.customerwebsite.customer.website.Services.CustomerService;
 import com.customerwebsite.customer.website.Services.CustomerServiceImpl;
 import com.customerwebsite.customer.website.Services.SnowboardService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @Controller
@@ -23,7 +25,14 @@ public class CustomerController {
 
 
     @GetMapping("/")
-    public String viewHomePage(@ModelAttribute("snowboard") Snowboard snowboard, Model model) {
+    public String viewHomePage() {
+
+        return "index";
+    }
+
+    @GetMapping("/customer-list")
+    @PreAuthorize("hasRole('ADMIN_ROLE')")
+    public String viewCustomerList(@ModelAttribute("snowboard") Snowboard snowboard, Model model){
         // Here you call the service to retrieve all the customers
         final List<Customer> customerList = customerService.getAllCustomers();
         final List<Snowboard> snowboardList = snowboardService.getAvailableSnowboards();
@@ -31,8 +40,9 @@ public class CustomerController {
         model.addAttribute("customerList", customerList);
         model.addAttribute("snowboardList", snowboardList);
         model.addAttribute("snowboard", snowboard);
-        return "index";
+        return"customer-list";
     }
+
 
     @GetMapping("/new")
     public String showNewCustomerPage(Model model) {
@@ -80,5 +90,19 @@ public class CustomerController {
     public String deleteCustomer(@PathVariable(name = "id") Long id) {
         customerService.deleteCustomer(id);
         return "redirect:/";
+    }
+
+    @RequestMapping("/logout")
+    public String logout(HttpSession session){
+        session.invalidate();
+        return "/login";
+
+    }
+
+    @RequestMapping("/customerView")
+    public String customerView(Model model, Customer customer){
+        model.addAttribute("customer", customer);
+
+        return "customer-view";
     }
 }
