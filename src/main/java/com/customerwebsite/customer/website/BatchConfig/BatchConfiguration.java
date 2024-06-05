@@ -30,11 +30,14 @@ import org.springframework.batch.item.ItemReader;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.PlatformTransactionManager;
 
+import java.io.Reader;
 import java.util.Map;
 
 @Configuration
 
 public class BatchConfiguration {
+
+
 
     @Bean
     public Job job(JobRepository jobRepository, Step snowStep, Step userStep, Step roleStep, Step customerStep) {
@@ -52,70 +55,47 @@ public class BatchConfiguration {
 
     //steps
     @Bean
-    public Step snowStep(JobRepository jobRepository, ItemReader<Snowboard> csvReader, Processors.BoardProcessor processor, Writers.BoardWriter writer, PlatformTransactionManager transactionManager){
+    public Step snowStep(JobRepository jobRepository,Readers readers, Processors.BoardProcessor processor, Writers.BoardWriter writer, PlatformTransactionManager transactionManager){
         return new StepBuilder("snow-step", jobRepository)
                 .<Snowboard, Snowboard>chunk(1000,transactionManager)
-                .reader(csvReader)
+                .reader(readers.SnowCsvReader("data/Snowboard.csv"))
                 .processor(processor)
                 .writer(writer)
                 .build();
     }
 
     @Bean
-    public Step userStep(JobRepository jobRepository, ItemReader<Customer> csvReader, Processors.UserProcessor processor, userWriter writer, PlatformTransactionManager transactionManager){
+    public Step userStep(JobRepository jobRepository, Readers readers, Processors.UserProcessor processor, Writers.UserWriter writer, PlatformTransactionManager transactionManager){
         return new StepBuilder("user-step", jobRepository)
-                .<Customer, Customer>chunk(1000,transactionManager)
-                .reader(csvReader)
+                .<CustomUserDetails, CustomUserDetails>chunk(1000,transactionManager)
+                .reader(readers.UserCsvReader("${userFile}"))
                 .processor(processor)
                 .writer(writer)
                 .build();
     }
 
     @Bean
-    public Step roleStep(JobRepository jobRepository, ItemReader<Role> csvReader, Processors.RoleProcessor processor, RoleWriter writer, PlatformTransactionManager transactionManager){
+    public Step roleStep(JobRepository jobRepository, Readers readers, Processors.RoleProcessor processor, Writers.RoleWriter writer, PlatformTransactionManager transactionManager){
         return new StepBuilder("role-step", jobRepository)
                 .<Role, Role>chunk(1000,transactionManager)
-                .reader(csvReader)
+                .reader(readers.RoleCsvReader("${roleFile}"))
                 .processor(processor)
                 .writer(writer)
                 .build();
     }
 
     @Bean
-    public Step customerStep(JobRepository jobRepository, ItemReader<CustomUserDetails> csvReader, CustomerProcessor processor, CustomerWriter writer, PlatformTransactionManager transactionManager){
+    public Step customerStep(JobRepository jobRepository, Readers readers, Processors.CustomerProcessor processor, Writers.CustomerWriter writer, PlatformTransactionManager transactionManager){
         return new StepBuilder("customer-step", jobRepository)
-                .<Snowboard, Snowboard>chunk(1000,transactionManager)
-                .reader(csvReader)
+                .<Customer, Customer>chunk(1000,transactionManager)
+                .reader(readers.CustomerCsvReader("${customerFile}"))
                 .processor(processor)
                 .writer(writer)
                 .build();
     }
 
-    //Item readers
-    @Bean
-    public FlatFileItemReader<Snowboard> csvReader(@Value("${snowFile}") String inputFile){
-        return new FlatFileItemReaderBuilder<Snowboard>()
-                .name("csv-reader")
-                .resource(new ClassPathResource(inputFile))
-                .delimited()
-                .names("id","type","brand,name","customer_id")
-                .linesToSkip(1)
-                .fieldSetMapper(new BeanWrapperFieldSetMapper<>(){
-                    {setTargetType(Snowboard.class);}
-                })
-                .build();
 
-    }
 
-    @Bean
-    public RepositoryItemReader<Snowboard> repositoryReader(SnowboardRepository snowboardRepository){
-        return new RepositoryItemReaderBuilder<Snowboard>()
-                .repository(snowboardRepository)
-                .methodName("findAll")
-                .sorts(Map.of("id", Sort.Direction.ASC))
-                .name("repository-reader")
-                .build();
-    }
 
 
 }

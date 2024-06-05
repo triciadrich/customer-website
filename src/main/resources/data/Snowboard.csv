@@ -1,0 +1,1001 @@
+id,type,brand,name,customer_id
+1,splitboard,Lib Tech,MountainThrasher,619
+2,freeride,Burton,IceCarver,675
+3,all-mountain,Capita,SnowBladeMaster,682
+4,splitboard,Ride,PowderShredder,235
+5,freestyle,GNU,SlopeSlayer,611
+6,freestyle,Never Summer,PowderShredder,48
+7,powder,Jones,SnowBladeMaster,756
+8,freeride,Ride,SnowBladeMaster,356
+9,freestyle,Capita,MountainThrasher,189
+10,all-mountain,Never Summer,SnowBladeMaster,568
+11,powder,Salomon,SlopeSlayer,393
+12,freestyle,Burton,SnowBladeMaster,660
+13,splitboard,Salomon,SlopeSlayer,856
+14,powder,GNU,SnowBladeMaster,433
+15,powder,Arbor,IceCarver,235
+16,powder,Lib Tech,PowderShredder,137
+17,all-mountain,Burton,MountainThrasher,228
+18,all-mountain,K2,IceCarver,92
+19,all-mountain,Arbor,PowderShredder,701
+20,freeride,Jones,MountainThrasher,980
+21,splitboard,Ride,PowderShredder,289
+22,splitboard,Capita,IceCarver,281
+23,powder,Arbor,MountainThrasher,705
+24,all-mountain,GNU,PowderShredder,838
+25,splitboard,Salomon,IceCarver,833
+26,powder,K2,SnowBladeMaster,641
+27,freestyle,Ride,SlopeSlayer,616
+28,splitboard,Lib Tech,SlopeSlayer,380
+29,powder,Salomon,MountainThrasher,434
+30,all-mountain,Never Summer,SlopeSlayer,350
+31,powder,Never Summer,PowderShredder,486
+32,all-mountain,Capita,SlopeSlayer,259
+33,freestyle,K2,IceCarver,881
+34,freeride,Never Summer,MountainThrasher,618
+35,powder,Salomon,MountainThrasher,329
+36,freeride,GNU,SlopeSlayer,66
+37,freeride,Burton,IceCarver,929
+38,all-mountain,Lib Tech,SnowBladeMaster,969
+39,freestyle,Never Summer,MountainThrasher,377
+40,all-mountain,Burton,PowderShredder,349
+41,all-mountain,GNU,IceCarver,934
+42,splitboard,Capita,SnowBladeMaster,404
+43,all-mountain,K2,PowderShredder,92
+44,freestyle,Never Summer,PowderShredder,272
+45,powder,Never Summer,PowderShredder,448
+46,splitboard,Lib Tech,PowderShredder,526
+47,splitboard,Lib Tech,IceCarver,635
+48,splitboard,Salomon,IceCarver,473
+49,powder,Capita,PowderShredder,944
+50,all-mountain,Lib Tech,SnowBladeMaster,690
+51,freeride,K2,IceCarver,755
+52,powder,K2,IceCarver,465
+53,splitboard,Ride,PowderShredder,385
+54,freestyle,Never Summer,PowderShredder,558
+55,powder,Never Summer,SnowBladeMaster,276
+56,freestyle,Capita,SlopeSlayer,231
+57,all-mountain,K2,IceCarver,245
+58,splitboard,Jones,SnowBladeMaster,836
+59,all-mountain,Lib Tech,IceCarver,228
+60,powder,Salomon,SnowBladeMaster,808
+61,freeride,Salomon,MountainThrasher,925
+62,freestyle,Burton,IceCarver,551
+63,powder,Lib Tech,SlopeSlayer,125
+64,freeride,Lib Tech,SnowBladeMaster,332
+65,splitboard,Never Summer,SlopeSlayer,985
+66,freestyle,K2,SlopeSlayer,884
+67,all-mountain,Capita,SnowBladeMaster,109
+68,all-mountain,GNU,SlopeSlayer,796
+69,splitboard,Never Summer,MountainThrasher,992
+70,freeride,Salomon,SnowBladeMaster,825
+71,freeride,GNU,IceCarver,266
+72,powder,Burton,MountainThrasher,471
+73,powder,Capita,SnowBladeMaster,526
+74,all-mountain,Ride,MountainThrasher,312
+75,freeride,GNU,MountainThrasher,456
+76,freestyle,Burton,MountainThrasher,80
+77,splitboard,K2,MountainThrasher,460
+78,splitboard,GNU,PowderShredder,805
+79,freeride,GNU,PowderShredder,16
+80,powder,Ride,IceCarver,572
+81,splitboard,Never Summer,IceCarver,822
+82,all-mountain,Ride,PowderShredder,733
+83,all-mountain,Never Summer,MountainThrasher,975
+84,freestyle,GNU,PowderShredder,608
+85,all-mountain,Jones,SnowBladeMaster,560
+86,all-mountain,Burton,SnowBladeMaster,979
+87,all-mountain,GNU,MountainThrasher,65
+88,all-mountain,Lib Tech,MountainThrasher,662
+89,splitboard,Salomon,IceCarver,105
+90,all-mountain,Salomon,PowderShredder,257
+91,freeride,Never Summer,IceCarver,311
+92,freestyle,Jones,SnowBladeMaster,421
+93,freestyle,Never Summer,PowderShredder,604
+94,splitboard,Lib Tech,IceCarver,634
+95,freestyle,Never Summer,PowderShredder,57
+96,all-mountain,Burton,IceCarver,14
+97,freestyle,Ride,SlopeSlayer,573
+98,splitboard,Arbor,SlopeSlayer,961
+99,all-mountain,Jones,PowderShredder,616
+100,all-mountain,K2,SnowBladeMaster,783
+101,freeride,Capita,PowderShredder,659
+102,freeride,GNU,SnowBladeMaster,644
+103,freeride,Never Summer,SlopeSlayer,936
+104,all-mountain,Salomon,IceCarver,922
+105,all-mountain,Jones,SnowBladeMaster,144
+106,powder,K2,PowderShredder,216
+107,all-mountain,Arbor,SnowBladeMaster,694
+108,splitboard,Burton,MountainThrasher,503
+109,powder,Jones,SlopeSlayer,112
+110,freeride,Salomon,PowderShredder,96
+111,all-mountain,Burton,SlopeSlayer,947
+112,freeride,Capita,MountainThrasher,722
+113,freeride,Lib Tech,IceCarver,259
+114,splitboard,Burton,PowderShredder,211
+115,freeride,Salomon,IceCarver,719
+116,all-mountain,Ride,IceCarver,283
+117,splitboard,Capita,MountainThrasher,573
+118,all-mountain,Arbor,SlopeSlayer,862
+119,powder,Lib Tech,SnowBladeMaster,850
+120,freestyle,Jones,SlopeSlayer,453
+121,powder,Burton,IceCarver,473
+122,powder,Capita,SlopeSlayer,674
+123,powder,GNU,IceCarver,495
+124,splitboard,Salomon,SnowBladeMaster,344
+125,freestyle,Capita,IceCarver,873
+126,splitboard,Capita,IceCarver,56
+127,powder,Salomon,IceCarver,920
+128,all-mountain,Capita,MountainThrasher,637
+129,freeride,Salomon,IceCarver,418
+130,freestyle,Ride,MountainThrasher,707
+131,splitboard,K2,SlopeSlayer,720
+132,all-mountain,Arbor,SnowBladeMaster,567
+133,splitboard,Capita,SlopeSlayer,826
+134,all-mountain,GNU,PowderShredder,173
+135,powder,Arbor,SnowBladeMaster,700
+136,splitboard,GNU,MountainThrasher,423
+137,freestyle,Ride,SnowBladeMaster,4
+138,freestyle,K2,SnowBladeMaster,716
+139,powder,Never Summer,SlopeSlayer,12
+140,powder,Lib Tech,IceCarver,951
+141,all-mountain,Never Summer,SnowBladeMaster,376
+142,freestyle,Salomon,SnowBladeMaster,948
+143,freestyle,Lib Tech,SlopeSlayer,847
+144,freestyle,Burton,MountainThrasher,352
+145,freestyle,GNU,SlopeSlayer,25
+146,all-mountain,Capita,IceCarver,480
+147,powder,K2,SnowBladeMaster,176
+148,powder,Ride,PowderShredder,70
+149,powder,K2,MountainThrasher,179
+150,freeride,Burton,IceCarver,876
+151,freestyle,Burton,SlopeSlayer,613
+152,freestyle,Never Summer,SnowBladeMaster,863
+153,freestyle,Capita,IceCarver,739
+154,all-mountain,Ride,PowderShredder,768
+155,powder,Salomon,SnowBladeMaster,44
+156,powder,Never Summer,SlopeSlayer,580
+157,freeride,GNU,SnowBladeMaster,692
+158,all-mountain,Jones,MountainThrasher,843
+159,all-mountain,Jones,PowderShredder,712
+160,freeride,GNU,MountainThrasher,776
+161,all-mountain,Lib Tech,SlopeSlayer,95
+162,freestyle,Salomon,SnowBladeMaster,742
+163,powder,Capita,SlopeSlayer,669
+164,all-mountain,Arbor,SnowBladeMaster,415
+165,all-mountain,Burton,IceCarver,735
+166,powder,Burton,SlopeSlayer,705
+167,freestyle,Arbor,PowderShredder,373
+168,freestyle,Never Summer,PowderShredder,666
+169,freestyle,Lib Tech,IceCarver,892
+170,splitboard,GNU,MountainThrasher,54
+171,splitboard,Jones,IceCarver,380
+172,freeride,Never Summer,SlopeSlayer,89
+173,freestyle,Capita,SnowBladeMaster,396
+174,all-mountain,K2,MountainThrasher,902
+175,all-mountain,K2,SnowBladeMaster,783
+176,all-mountain,K2,SnowBladeMaster,764
+177,freestyle,K2,SnowBladeMaster,34
+178,freestyle,Jones,SnowBladeMaster,691
+179,all-mountain,Burton,PowderShredder,606
+180,splitboard,Lib Tech,IceCarver,113
+181,freestyle,Capita,PowderShredder,987
+182,all-mountain,K2,SlopeSlayer,433
+183,freeride,Salomon,SlopeSlayer,757
+184,freeride,GNU,IceCarver,60
+185,powder,Jones,SnowBladeMaster,467
+186,splitboard,Salomon,MountainThrasher,125
+187,freestyle,Arbor,IceCarver,133
+188,powder,GNU,MountainThrasher,529
+189,freeride,Never Summer,PowderShredder,388
+190,powder,Salomon,PowderShredder,183
+191,freestyle,GNU,SlopeSlayer,505
+192,freeride,Never Summer,PowderShredder,350
+193,freeride,Burton,SnowBladeMaster,324
+194,all-mountain,Capita,MountainThrasher,659
+195,freeride,Arbor,PowderShredder,586
+196,freeride,Arbor,SnowBladeMaster,657
+197,freestyle,Arbor,IceCarver,760
+198,all-mountain,Capita,PowderShredder,476
+199,all-mountain,Salomon,MountainThrasher,199
+200,powder,Jones,PowderShredder,343
+201,splitboard,Salomon,PowderShredder,492
+202,splitboard,K2,SlopeSlayer,497
+203,freeride,GNU,IceCarver,99
+204,powder,Salomon,IceCarver,675
+205,splitboard,Never Summer,PowderShredder,1000
+206,powder,Salomon,PowderShredder,187
+207,all-mountain,Never Summer,SlopeSlayer,49
+208,freeride,GNU,IceCarver,527
+209,freeride,Capita,MountainThrasher,89
+210,freestyle,Ride,SnowBladeMaster,311
+211,freestyle,Lib Tech,PowderShredder,170
+212,freestyle,Capita,PowderShredder,938
+213,freeride,K2,SnowBladeMaster,801
+214,powder,Capita,MountainThrasher,900
+215,all-mountain,Burton,SlopeSlayer,52
+216,all-mountain,K2,IceCarver,69
+217,freestyle,K2,SlopeSlayer,531
+218,freeride,GNU,SlopeSlayer,430
+219,freestyle,Salomon,MountainThrasher,659
+220,splitboard,Capita,MountainThrasher,62
+221,freestyle,Never Summer,IceCarver,626
+222,all-mountain,Arbor,SnowBladeMaster,707
+223,freeride,Jones,IceCarver,115
+224,freestyle,Ride,SlopeSlayer,988
+225,freestyle,Jones,IceCarver,741
+226,splitboard,Burton,SnowBladeMaster,352
+227,all-mountain,Burton,SlopeSlayer,735
+228,freestyle,Arbor,SlopeSlayer,906
+229,freeride,Salomon,SnowBladeMaster,846
+230,powder,GNU,MountainThrasher,936
+231,all-mountain,K2,MountainThrasher,495
+232,powder,Lib Tech,PowderShredder,267
+233,splitboard,Salomon,PowderShredder,151
+234,powder,Ride,PowderShredder,632
+235,splitboard,Ride,IceCarver,181
+236,splitboard,Ride,IceCarver,744
+237,freeride,Burton,SlopeSlayer,469
+238,splitboard,Lib Tech,SnowBladeMaster,102
+239,powder,Arbor,PowderShredder,847
+240,powder,Lib Tech,MountainThrasher,18
+241,freeride,GNU,SlopeSlayer,851
+242,freeride,K2,PowderShredder,329
+243,all-mountain,K2,PowderShredder,24
+244,all-mountain,Salomon,IceCarver,587
+245,freestyle,GNU,PowderShredder,429
+246,splitboard,GNU,MountainThrasher,482
+247,powder,Lib Tech,MountainThrasher,922
+248,splitboard,GNU,MountainThrasher,515
+249,freestyle,Burton,SnowBladeMaster,602
+250,splitboard,Jones,SnowBladeMaster,262
+251,splitboard,GNU,PowderShredder,455
+252,freestyle,Capita,PowderShredder,838
+253,all-mountain,K2,SnowBladeMaster,857
+254,powder,Lib Tech,SlopeSlayer,569
+255,freeride,K2,IceCarver,542
+256,all-mountain,Ride,SlopeSlayer,10
+257,splitboard,Burton,SlopeSlayer,159
+258,splitboard,Salomon,PowderShredder,949
+259,freestyle,Ride,PowderShredder,383
+260,all-mountain,Salomon,MountainThrasher,241
+261,freeride,K2,SnowBladeMaster,285
+262,powder,Jones,SlopeSlayer,977
+263,splitboard,Capita,PowderShredder,175
+264,all-mountain,Ride,SnowBladeMaster,323
+265,freeride,K2,IceCarver,758
+266,freestyle,Never Summer,MountainThrasher,242
+267,all-mountain,Jones,SlopeSlayer,355
+268,splitboard,K2,MountainThrasher,581
+269,freestyle,K2,PowderShredder,946
+270,freestyle,Never Summer,MountainThrasher,831
+271,freestyle,GNU,MountainThrasher,487
+272,powder,Capita,PowderShredder,406
+273,splitboard,Jones,PowderShredder,143
+274,freeride,Arbor,IceCarver,144
+275,splitboard,Never Summer,SnowBladeMaster,989
+276,freeride,Ride,SnowBladeMaster,544
+277,all-mountain,Arbor,SnowBladeMaster,431
+278,powder,K2,IceCarver,583
+279,all-mountain,Ride,MountainThrasher,659
+280,freeride,Salomon,SnowBladeMaster,699
+281,powder,Ride,SnowBladeMaster,897
+282,powder,Arbor,SnowBladeMaster,494
+283,freeride,Capita,SlopeSlayer,98
+284,all-mountain,Arbor,SlopeSlayer,296
+285,freeride,Ride,SlopeSlayer,213
+286,splitboard,Capita,PowderShredder,814
+287,freeride,K2,PowderShredder,470
+288,splitboard,GNU,PowderShredder,137
+289,freestyle,Never Summer,MountainThrasher,215
+290,all-mountain,K2,SnowBladeMaster,80
+291,powder,Lib Tech,MountainThrasher,465
+292,splitboard,GNU,SnowBladeMaster,735
+293,powder,Never Summer,MountainThrasher,993
+294,powder,Capita,MountainThrasher,920
+295,powder,K2,IceCarver,146
+296,all-mountain,Lib Tech,SnowBladeMaster,518
+297,all-mountain,Jones,IceCarver,285
+298,splitboard,Arbor,MountainThrasher,352
+299,freeride,Burton,SnowBladeMaster,957
+300,all-mountain,K2,MountainThrasher,766
+301,freestyle,Never Summer,MountainThrasher,58
+302,powder,Never Summer,IceCarver,756
+303,all-mountain,Capita,MountainThrasher,865
+304,all-mountain,Never Summer,IceCarver,200
+305,powder,Ride,IceCarver,125
+306,freestyle,K2,PowderShredder,863
+307,powder,Capita,PowderShredder,106
+308,all-mountain,Burton,SnowBladeMaster,622
+309,splitboard,K2,IceCarver,324
+310,freeride,Capita,PowderShredder,631
+311,powder,Never Summer,SlopeSlayer,700
+312,freestyle,Jones,MountainThrasher,462
+313,freestyle,GNU,IceCarver,488
+314,splitboard,Burton,SlopeSlayer,943
+315,freestyle,GNU,MountainThrasher,362
+316,freestyle,Lib Tech,SnowBladeMaster,937
+317,powder,Never Summer,MountainThrasher,335
+318,splitboard,Ride,SnowBladeMaster,227
+319,freestyle,Lib Tech,MountainThrasher,731
+320,all-mountain,K2,PowderShredder,564
+321,freestyle,Never Summer,MountainThrasher,270
+322,powder,Salomon,SnowBladeMaster,200
+323,all-mountain,Never Summer,SnowBladeMaster,730
+324,freestyle,Capita,SnowBladeMaster,608
+325,powder,Capita,PowderShredder,750
+326,splitboard,GNU,IceCarver,27
+327,freestyle,Ride,IceCarver,921
+328,powder,Lib Tech,IceCarver,451
+329,freestyle,Burton,IceCarver,496
+330,freeride,Capita,IceCarver,684
+331,powder,Ride,PowderShredder,670
+332,freestyle,Lib Tech,SnowBladeMaster,221
+333,freeride,Jones,PowderShredder,823
+334,freestyle,Arbor,IceCarver,66
+335,powder,Burton,SlopeSlayer,749
+336,splitboard,Salomon,IceCarver,690
+337,powder,GNU,SlopeSlayer,546
+338,freeride,Capita,MountainThrasher,456
+339,powder,Never Summer,PowderShredder,487
+340,powder,Lib Tech,MountainThrasher,427
+341,splitboard,Salomon,SnowBladeMaster,430
+342,splitboard,Never Summer,MountainThrasher,31
+343,freeride,Burton,PowderShredder,207
+344,freestyle,GNU,IceCarver,325
+345,powder,Salomon,SlopeSlayer,748
+346,freeride,Arbor,SnowBladeMaster,351
+347,freeride,GNU,IceCarver,241
+348,all-mountain,Ride,SnowBladeMaster,112
+349,powder,Jones,PowderShredder,573
+350,all-mountain,Capita,PowderShredder,187
+351,splitboard,Capita,SnowBladeMaster,110
+352,powder,Ride,SlopeSlayer,640
+353,splitboard,Ride,SlopeSlayer,168
+354,freestyle,K2,IceCarver,660
+355,freeride,Never Summer,MountainThrasher,571
+356,all-mountain,GNU,MountainThrasher,991
+357,all-mountain,Jones,PowderShredder,538
+358,splitboard,Salomon,IceCarver,244
+359,freestyle,Salomon,SlopeSlayer,248
+360,freestyle,Burton,IceCarver,841
+361,splitboard,Ride,PowderShredder,313
+362,powder,Lib Tech,MountainThrasher,193
+363,freeride,Burton,IceCarver,144
+364,freestyle,Lib Tech,PowderShredder,578
+365,splitboard,Jones,SlopeSlayer,756
+366,freestyle,Lib Tech,SnowBladeMaster,520
+367,splitboard,K2,PowderShredder,378
+368,powder,K2,PowderShredder,362
+369,freeride,Jones,PowderShredder,779
+370,all-mountain,GNU,MountainThrasher,839
+371,freestyle,Lib Tech,IceCarver,972
+372,splitboard,Salomon,SlopeSlayer,803
+373,powder,Lib Tech,IceCarver,439
+374,freeride,Burton,MountainThrasher,937
+375,powder,Capita,IceCarver,51
+376,powder,GNU,PowderShredder,548
+377,powder,Jones,SlopeSlayer,513
+378,powder,Never Summer,SnowBladeMaster,401
+379,all-mountain,Arbor,SlopeSlayer,428
+380,freestyle,Salomon,PowderShredder,377
+381,splitboard,Lib Tech,IceCarver,897
+382,freeride,Burton,SlopeSlayer,173
+383,powder,Jones,MountainThrasher,182
+384,splitboard,Jones,SnowBladeMaster,326
+385,all-mountain,Lib Tech,IceCarver,879
+386,freeride,Ride,IceCarver,194
+387,splitboard,Arbor,PowderShredder,952
+388,all-mountain,Jones,SnowBladeMaster,39
+389,freeride,Salomon,IceCarver,778
+390,all-mountain,K2,IceCarver,13
+391,all-mountain,Jones,SnowBladeMaster,886
+392,powder,Never Summer,IceCarver,199
+393,all-mountain,Arbor,PowderShredder,2
+394,freestyle,Never Summer,PowderShredder,630
+395,freestyle,Capita,IceCarver,641
+396,all-mountain,Burton,MountainThrasher,773
+397,all-mountain,Ride,PowderShredder,682
+398,all-mountain,Burton,MountainThrasher,760
+399,freeride,Arbor,IceCarver,276
+400,powder,Capita,IceCarver,421
+401,splitboard,Lib Tech,IceCarver,611
+402,powder,Capita,SnowBladeMaster,117
+403,powder,Lib Tech,MountainThrasher,665
+404,freeride,Ride,IceCarver,325
+405,freestyle,Jones,SlopeSlayer,111
+406,freeride,Ride,MountainThrasher,281
+407,freeride,Salomon,PowderShredder,248
+408,freeride,Ride,SnowBladeMaster,932
+409,powder,K2,SlopeSlayer,49
+410,freeride,Never Summer,SlopeSlayer,897
+411,freeride,K2,MountainThrasher,930
+412,freeride,Never Summer,SnowBladeMaster,155
+413,powder,Never Summer,PowderShredder,705
+414,freeride,Salomon,SlopeSlayer,326
+415,freestyle,Never Summer,SnowBladeMaster,7
+416,all-mountain,Jones,PowderShredder,607
+417,powder,Jones,MountainThrasher,4
+418,all-mountain,GNU,MountainThrasher,300
+419,freeride,GNU,SlopeSlayer,366
+420,powder,Never Summer,SnowBladeMaster,252
+421,powder,K2,IceCarver,369
+422,splitboard,Jones,IceCarver,254
+423,splitboard,Lib Tech,SlopeSlayer,335
+424,splitboard,Lib Tech,MountainThrasher,183
+425,powder,Capita,SlopeSlayer,981
+426,splitboard,Capita,PowderShredder,225
+427,splitboard,Capita,IceCarver,832
+428,freeride,GNU,SlopeSlayer,611
+429,powder,K2,SlopeSlayer,783
+430,freeride,Arbor,PowderShredder,1000
+431,freestyle,GNU,PowderShredder,665
+432,powder,Capita,MountainThrasher,883
+433,all-mountain,Lib Tech,PowderShredder,324
+434,powder,K2,MountainThrasher,21
+435,freestyle,GNU,PowderShredder,674
+436,freestyle,Arbor,SnowBladeMaster,985
+437,freestyle,Salomon,IceCarver,638
+438,all-mountain,Ride,SlopeSlayer,748
+439,splitboard,Ride,IceCarver,676
+440,freestyle,Burton,PowderShredder,715
+441,freeride,Lib Tech,SnowBladeMaster,445
+442,all-mountain,Ride,IceCarver,147
+443,freestyle,Jones,SnowBladeMaster,475
+444,all-mountain,Salomon,PowderShredder,381
+445,splitboard,Lib Tech,SnowBladeMaster,41
+446,freeride,Jones,SlopeSlayer,139
+447,freestyle,Arbor,IceCarver,374
+448,freestyle,Jones,SnowBladeMaster,472
+449,freeride,Arbor,MountainThrasher,288
+450,freestyle,GNU,SlopeSlayer,96
+451,powder,Ride,PowderShredder,702
+452,freeride,Arbor,SlopeSlayer,744
+453,splitboard,K2,SlopeSlayer,918
+454,freestyle,Lib Tech,SlopeSlayer,34
+455,freeride,Ride,PowderShredder,155
+456,splitboard,Burton,MountainThrasher,677
+457,freeride,Never Summer,SnowBladeMaster,751
+458,freestyle,Capita,SlopeSlayer,905
+459,powder,GNU,MountainThrasher,536
+460,freeride,Burton,SlopeSlayer,1
+461,powder,Capita,SlopeSlayer,406
+462,freestyle,Burton,MountainThrasher,916
+463,powder,Lib Tech,PowderShredder,767
+464,freeride,Capita,PowderShredder,357
+465,all-mountain,Never Summer,PowderShredder,31
+466,powder,Arbor,SlopeSlayer,404
+467,powder,Jones,SnowBladeMaster,329
+468,freestyle,Never Summer,MountainThrasher,361
+469,powder,Ride,MountainThrasher,200
+470,splitboard,Ride,IceCarver,188
+471,all-mountain,Lib Tech,MountainThrasher,493
+472,powder,Burton,IceCarver,522
+473,splitboard,GNU,SnowBladeMaster,958
+474,freeride,Salomon,MountainThrasher,528
+475,splitboard,Ride,MountainThrasher,154
+476,freeride,Capita,PowderShredder,861
+477,freeride,Ride,PowderShredder,712
+478,freestyle,Capita,IceCarver,342
+479,splitboard,K2,PowderShredder,875
+480,freeride,Jones,MountainThrasher,858
+481,all-mountain,K2,PowderShredder,521
+482,freeride,Burton,IceCarver,99
+483,all-mountain,Salomon,IceCarver,543
+484,freeride,Salomon,MountainThrasher,72
+485,all-mountain,Jones,SnowBladeMaster,199
+486,freeride,GNU,PowderShredder,246
+487,freeride,GNU,IceCarver,346
+488,all-mountain,Ride,SnowBladeMaster,258
+489,freestyle,Capita,SlopeSlayer,846
+490,freeride,K2,SlopeSlayer,814
+491,splitboard,Ride,PowderShredder,457
+492,freeride,Ride,IceCarver,868
+493,all-mountain,Salomon,MountainThrasher,540
+494,freeride,Lib Tech,IceCarver,774
+495,freeride,Never Summer,MountainThrasher,229
+496,all-mountain,Arbor,MountainThrasher,57
+497,powder,Salomon,IceCarver,972
+498,all-mountain,Never Summer,IceCarver,450
+499,freeride,Salomon,PowderShredder,171
+500,splitboard,Ride,PowderShredder,787
+501,splitboard,Burton,PowderShredder,831
+502,freestyle,Capita,MountainThrasher,989
+503,all-mountain,Never Summer,IceCarver,198
+504,powder,Jones,PowderShredder,278
+505,freestyle,Capita,MountainThrasher,796
+506,splitboard,Never Summer,PowderShredder,124
+507,freestyle,Never Summer,SlopeSlayer,110
+508,freeride,Lib Tech,PowderShredder,495
+509,freestyle,Ride,SlopeSlayer,231
+510,freeride,GNU,IceCarver,699
+511,splitboard,Arbor,SnowBladeMaster,860
+512,freeride,Salomon,SlopeSlayer,53
+513,powder,GNU,PowderShredder,600
+514,powder,Salomon,PowderShredder,627
+515,freestyle,Capita,IceCarver,385
+516,freestyle,Salomon,PowderShredder,2
+517,splitboard,Lib Tech,SlopeSlayer,281
+518,powder,Burton,SnowBladeMaster,429
+519,all-mountain,Salomon,SnowBladeMaster,660
+520,powder,Salomon,PowderShredder,607
+521,freestyle,Capita,IceCarver,701
+522,powder,GNU,PowderShredder,923
+523,splitboard,Salomon,IceCarver,737
+524,all-mountain,K2,PowderShredder,448
+525,freestyle,Salomon,PowderShredder,736
+526,freeride,GNU,PowderShredder,275
+527,freestyle,Capita,SnowBladeMaster,281
+528,splitboard,Lib Tech,PowderShredder,856
+529,splitboard,Jones,PowderShredder,191
+530,freeride,Burton,PowderShredder,30
+531,all-mountain,Capita,PowderShredder,947
+532,freeride,Burton,SlopeSlayer,888
+533,powder,Lib Tech,PowderShredder,776
+534,powder,GNU,PowderShredder,587
+535,powder,Never Summer,SnowBladeMaster,161
+536,splitboard,GNU,SnowBladeMaster,966
+537,splitboard,Salomon,MountainThrasher,53
+538,freestyle,K2,SlopeSlayer,159
+539,freestyle,GNU,SnowBladeMaster,385
+540,freeride,Ride,MountainThrasher,425
+541,splitboard,K2,IceCarver,503
+542,freestyle,Never Summer,MountainThrasher,777
+543,all-mountain,GNU,MountainThrasher,452
+544,freestyle,Arbor,SlopeSlayer,736
+545,all-mountain,GNU,SlopeSlayer,270
+546,splitboard,GNU,MountainThrasher,491
+547,powder,Burton,SnowBladeMaster,838
+548,freestyle,K2,IceCarver,643
+549,splitboard,Capita,SlopeSlayer,89
+550,freeride,K2,IceCarver,292
+551,freestyle,Lib Tech,IceCarver,148
+552,freeride,Lib Tech,IceCarver,542
+553,all-mountain,Salomon,SnowBladeMaster,798
+554,freestyle,Burton,SlopeSlayer,733
+555,freestyle,Burton,SlopeSlayer,816
+556,all-mountain,Jones,SnowBladeMaster,215
+557,all-mountain,GNU,PowderShredder,778
+558,freeride,Lib Tech,MountainThrasher,242
+559,freestyle,Never Summer,PowderShredder,83
+560,all-mountain,Arbor,SlopeSlayer,914
+561,splitboard,Arbor,SnowBladeMaster,412
+562,powder,Lib Tech,MountainThrasher,674
+563,splitboard,Capita,MountainThrasher,298
+564,powder,Salomon,MountainThrasher,963
+565,powder,Burton,SlopeSlayer,916
+566,freestyle,K2,MountainThrasher,942
+567,powder,Lib Tech,PowderShredder,84
+568,freestyle,Jones,PowderShredder,868
+569,all-mountain,Never Summer,IceCarver,313
+570,freestyle,Lib Tech,PowderShredder,197
+571,splitboard,K2,MountainThrasher,987
+572,powder,GNU,PowderShredder,502
+573,freeride,Jones,IceCarver,494
+574,splitboard,Ride,SnowBladeMaster,755
+575,splitboard,Lib Tech,SnowBladeMaster,51
+576,splitboard,K2,SlopeSlayer,839
+577,freeride,Capita,MountainThrasher,829
+578,freestyle,Arbor,PowderShredder,347
+579,freeride,Ride,PowderShredder,480
+580,freeride,K2,SnowBladeMaster,789
+581,splitboard,Salomon,SnowBladeMaster,632
+582,freeride,Jones,PowderShredder,254
+583,splitboard,Burton,SlopeSlayer,644
+584,splitboard,Never Summer,IceCarver,575
+585,powder,Lib Tech,SlopeSlayer,177
+586,freeride,Ride,SlopeSlayer,431
+587,all-mountain,K2,SnowBladeMaster,232
+588,powder,Lib Tech,SnowBladeMaster,560
+589,splitboard,Lib Tech,IceCarver,476
+590,powder,GNU,SlopeSlayer,339
+591,all-mountain,Never Summer,IceCarver,797
+592,freeride,GNU,SnowBladeMaster,413
+593,all-mountain,Arbor,PowderShredder,468
+594,powder,Burton,SlopeSlayer,32
+595,all-mountain,Salomon,PowderShredder,802
+596,freeride,Ride,SnowBladeMaster,57
+597,freestyle,Arbor,SlopeSlayer,664
+598,splitboard,K2,IceCarver,621
+599,freestyle,Ride,MountainThrasher,674
+600,all-mountain,Lib Tech,SnowBladeMaster,819
+601,freeride,Arbor,MountainThrasher,572
+602,freeride,Jones,PowderShredder,323
+603,powder,GNU,MountainThrasher,163
+604,splitboard,Arbor,MountainThrasher,234
+605,splitboard,GNU,PowderShredder,628
+606,splitboard,Lib Tech,SnowBladeMaster,618
+607,splitboard,Jones,SlopeSlayer,17
+608,freestyle,Never Summer,SlopeSlayer,609
+609,splitboard,Salomon,SlopeSlayer,691
+610,splitboard,Lib Tech,PowderShredder,183
+611,splitboard,Ride,IceCarver,214
+612,freeride,GNU,SlopeSlayer,620
+613,all-mountain,K2,SlopeSlayer,254
+614,splitboard,Jones,PowderShredder,170
+615,splitboard,K2,SlopeSlayer,337
+616,powder,Capita,SlopeSlayer,592
+617,freeride,Never Summer,SlopeSlayer,418
+618,freestyle,K2,PowderShredder,773
+619,freestyle,Never Summer,MountainThrasher,617
+620,freestyle,Ride,IceCarver,721
+621,freestyle,Lib Tech,SlopeSlayer,116
+622,freestyle,Arbor,SnowBladeMaster,289
+623,freestyle,Ride,MountainThrasher,741
+624,freestyle,Capita,IceCarver,184
+625,all-mountain,Ride,IceCarver,615
+626,all-mountain,Arbor,PowderShredder,711
+627,freestyle,Burton,SlopeSlayer,921
+628,splitboard,Capita,MountainThrasher,717
+629,freeride,Ride,SnowBladeMaster,276
+630,freeride,Salomon,IceCarver,715
+631,powder,GNU,SlopeSlayer,426
+632,all-mountain,K2,PowderShredder,338
+633,freeride,Salomon,SlopeSlayer,917
+634,splitboard,K2,PowderShredder,704
+635,all-mountain,Ride,SlopeSlayer,389
+636,powder,Ride,MountainThrasher,4
+637,splitboard,Never Summer,SnowBladeMaster,34
+638,freeride,Jones,SlopeSlayer,534
+639,freeride,Ride,MountainThrasher,940
+640,splitboard,Capita,SlopeSlayer,636
+641,freestyle,Lib Tech,SlopeSlayer,286
+642,freeride,Ride,PowderShredder,715
+643,all-mountain,K2,MountainThrasher,479
+644,freestyle,Arbor,SlopeSlayer,877
+645,freestyle,Burton,SnowBladeMaster,753
+646,powder,K2,SnowBladeMaster,341
+647,freestyle,Salomon,IceCarver,825
+648,powder,GNU,PowderShredder,910
+649,splitboard,Ride,IceCarver,678
+650,all-mountain,Lib Tech,SnowBladeMaster,391
+651,all-mountain,Capita,PowderShredder,675
+652,powder,Never Summer,SlopeSlayer,498
+653,splitboard,Ride,MountainThrasher,610
+654,all-mountain,Burton,SnowBladeMaster,316
+655,freeride,GNU,PowderShredder,366
+656,freestyle,K2,SlopeSlayer,123
+657,freestyle,Burton,SnowBladeMaster,875
+658,all-mountain,Capita,IceCarver,300
+659,freeride,Salomon,IceCarver,34
+660,splitboard,Capita,PowderShredder,355
+661,splitboard,Ride,SnowBladeMaster,982
+662,freeride,Arbor,PowderShredder,733
+663,freestyle,Burton,MountainThrasher,280
+664,all-mountain,Salomon,SlopeSlayer,338
+665,all-mountain,Jones,SlopeSlayer,555
+666,freestyle,Salomon,SnowBladeMaster,892
+667,freeride,Jones,SnowBladeMaster,172
+668,freestyle,Salomon,IceCarver,526
+669,powder,Arbor,SnowBladeMaster,234
+670,splitboard,K2,PowderShredder,168
+671,freestyle,K2,IceCarver,546
+672,powder,Capita,PowderShredder,802
+673,all-mountain,Burton,SlopeSlayer,829
+674,splitboard,Capita,SlopeSlayer,826
+675,freeride,Salomon,SnowBladeMaster,172
+676,freestyle,Salomon,SlopeSlayer,38
+677,all-mountain,Burton,PowderShredder,755
+678,powder,Salomon,SlopeSlayer,531
+679,splitboard,Never Summer,IceCarver,148
+680,freeride,Salomon,PowderShredder,152
+681,powder,Never Summer,SnowBladeMaster,751
+682,freestyle,Capita,SlopeSlayer,224
+683,splitboard,Lib Tech,MountainThrasher,7
+684,powder,Arbor,MountainThrasher,579
+685,freeride,Never Summer,MountainThrasher,551
+686,freeride,Lib Tech,SlopeSlayer,738
+687,all-mountain,Ride,PowderShredder,452
+688,all-mountain,Jones,MountainThrasher,613
+689,freeride,Never Summer,IceCarver,385
+690,powder,Burton,MountainThrasher,96
+691,powder,Ride,IceCarver,232
+692,freeride,Burton,MountainThrasher,278
+693,splitboard,Capita,MountainThrasher,643
+694,freeride,Never Summer,SnowBladeMaster,456
+695,powder,Burton,IceCarver,623
+696,all-mountain,Capita,PowderShredder,957
+697,all-mountain,Capita,PowderShredder,325
+698,powder,Never Summer,IceCarver,122
+699,powder,Salomon,IceCarver,372
+700,freeride,Arbor,SlopeSlayer,458
+701,freestyle,Capita,IceCarver,811
+702,freeride,Salomon,IceCarver,423
+703,freestyle,Ride,PowderShredder,276
+704,splitboard,Salomon,PowderShredder,766
+705,powder,Salomon,SnowBladeMaster,584
+706,powder,GNU,SnowBladeMaster,244
+707,freeride,Capita,MountainThrasher,982
+708,freeride,Arbor,MountainThrasher,297
+709,freeride,Jones,PowderShredder,503
+710,powder,Lib Tech,PowderShredder,16
+711,freeride,Burton,PowderShredder,58
+712,all-mountain,Burton,SlopeSlayer,328
+713,powder,Salomon,PowderShredder,551
+714,all-mountain,Salomon,IceCarver,257
+715,freeride,Capita,MountainThrasher,760
+716,freeride,Arbor,PowderShredder,495
+717,powder,Jones,SlopeSlayer,299
+718,freeride,Jones,SlopeSlayer,641
+719,powder,Burton,MountainThrasher,699
+720,all-mountain,Never Summer,MountainThrasher,161
+721,all-mountain,Never Summer,MountainThrasher,692
+722,splitboard,GNU,PowderShredder,254
+723,freestyle,K2,IceCarver,565
+724,freestyle,Arbor,SnowBladeMaster,575
+725,freestyle,Capita,IceCarver,966
+726,freestyle,Arbor,IceCarver,207
+727,freestyle,Salomon,PowderShredder,152
+728,freestyle,Arbor,IceCarver,18
+729,freestyle,Lib Tech,PowderShredder,862
+730,freestyle,GNU,PowderShredder,29
+731,freestyle,Salomon,SlopeSlayer,798
+732,freestyle,Burton,SnowBladeMaster,407
+733,powder,Jones,SnowBladeMaster,613
+734,splitboard,Capita,MountainThrasher,346
+735,freeride,Salomon,PowderShredder,387
+736,freestyle,Lib Tech,IceCarver,482
+737,freeride,Never Summer,PowderShredder,938
+738,freestyle,Burton,SnowBladeMaster,690
+739,powder,Capita,IceCarver,634
+740,all-mountain,K2,SnowBladeMaster,176
+741,freestyle,Lib Tech,IceCarver,470
+742,all-mountain,Lib Tech,SlopeSlayer,846
+743,freestyle,Capita,SlopeSlayer,977
+744,freestyle,Ride,SnowBladeMaster,132
+745,powder,Arbor,PowderShredder,66
+746,powder,Never Summer,MountainThrasher,160
+747,all-mountain,Salomon,SlopeSlayer,26
+748,powder,GNU,IceCarver,805
+749,splitboard,Arbor,SnowBladeMaster,471
+750,all-mountain,Lib Tech,SnowBladeMaster,904
+751,powder,Lib Tech,SnowBladeMaster,90
+752,splitboard,Salomon,MountainThrasher,987
+753,freestyle,Jones,SlopeSlayer,726
+754,freeride,Arbor,MountainThrasher,668
+755,splitboard,GNU,IceCarver,811
+756,powder,Capita,MountainThrasher,830
+757,freestyle,Salomon,PowderShredder,716
+758,freeride,Jones,SnowBladeMaster,98
+759,all-mountain,K2,SnowBladeMaster,577
+760,powder,Never Summer,PowderShredder,410
+761,all-mountain,Burton,MountainThrasher,161
+762,splitboard,GNU,IceCarver,829
+763,powder,K2,SnowBladeMaster,906
+764,freestyle,GNU,PowderShredder,118
+765,freeride,K2,SlopeSlayer,42
+766,freeride,Never Summer,MountainThrasher,20
+767,all-mountain,Arbor,IceCarver,343
+768,powder,K2,SlopeSlayer,890
+769,freeride,Never Summer,MountainThrasher,375
+770,splitboard,Burton,IceCarver,274
+771,splitboard,Capita,SnowBladeMaster,583
+772,freeride,Never Summer,SnowBladeMaster,924
+773,splitboard,Arbor,IceCarver,364
+774,freeride,Jones,PowderShredder,209
+775,freestyle,Arbor,PowderShredder,147
+776,freestyle,K2,SnowBladeMaster,200
+777,all-mountain,Lib Tech,SnowBladeMaster,323
+778,freeride,K2,MountainThrasher,166
+779,all-mountain,Lib Tech,MountainThrasher,880
+780,splitboard,Ride,PowderShredder,282
+781,freeride,Capita,SlopeSlayer,699
+782,powder,Arbor,SnowBladeMaster,128
+783,splitboard,Burton,PowderShredder,31
+784,powder,Burton,IceCarver,508
+785,all-mountain,Salomon,PowderShredder,762
+786,splitboard,Salomon,IceCarver,350
+787,freeride,Capita,SnowBladeMaster,480
+788,freestyle,Burton,IceCarver,289
+789,powder,GNU,IceCarver,694
+790,all-mountain,GNU,SnowBladeMaster,270
+791,powder,Never Summer,IceCarver,816
+792,splitboard,Burton,SlopeSlayer,759
+793,splitboard,Never Summer,IceCarver,645
+794,freeride,Capita,MountainThrasher,248
+795,powder,Arbor,MountainThrasher,274
+796,powder,GNU,MountainThrasher,660
+797,powder,Capita,SlopeSlayer,182
+798,freeride,Salomon,SnowBladeMaster,771
+799,all-mountain,Capita,PowderShredder,678
+800,freestyle,Salomon,IceCarver,212
+801,freeride,Jones,SlopeSlayer,205
+802,freeride,Never Summer,SnowBladeMaster,68
+803,freestyle,Never Summer,SlopeSlayer,885
+804,freeride,Capita,IceCarver,436
+805,powder,K2,SnowBladeMaster,421
+806,all-mountain,Capita,PowderShredder,89
+807,freestyle,K2,SnowBladeMaster,291
+808,freestyle,GNU,SnowBladeMaster,692
+809,powder,GNU,MountainThrasher,550
+810,all-mountain,K2,SnowBladeMaster,562
+811,splitboard,Jones,IceCarver,764
+812,freestyle,Ride,PowderShredder,508
+813,powder,Jones,PowderShredder,36
+814,freestyle,Jones,IceCarver,454
+815,splitboard,Salomon,MountainThrasher,41
+816,all-mountain,Lib Tech,SnowBladeMaster,415
+817,freeride,GNU,SlopeSlayer,730
+818,splitboard,Arbor,MountainThrasher,533
+819,splitboard,Jones,SnowBladeMaster,728
+820,freestyle,GNU,MountainThrasher,990
+821,freestyle,Burton,SlopeSlayer,82
+822,freestyle,Arbor,SnowBladeMaster,548
+823,freestyle,Never Summer,SnowBladeMaster,232
+824,freeride,Salomon,MountainThrasher,157
+825,splitboard,Burton,PowderShredder,48
+826,all-mountain,Jones,MountainThrasher,967
+827,freeride,Ride,IceCarver,221
+828,powder,Salomon,IceCarver,128
+829,powder,Never Summer,SnowBladeMaster,68
+830,all-mountain,Capita,IceCarver,257
+831,freeride,Jones,SnowBladeMaster,482
+832,all-mountain,Never Summer,SnowBladeMaster,296
+833,splitboard,Capita,PowderShredder,19
+834,freestyle,Ride,PowderShredder,574
+835,freestyle,Lib Tech,SnowBladeMaster,791
+836,powder,Burton,PowderShredder,942
+837,powder,GNU,IceCarver,765
+838,splitboard,Jones,SnowBladeMaster,997
+839,all-mountain,Burton,SlopeSlayer,851
+840,powder,Salomon,PowderShredder,487
+841,splitboard,K2,SlopeSlayer,40
+842,freestyle,Capita,PowderShredder,771
+843,freestyle,Ride,IceCarver,707
+844,powder,K2,PowderShredder,235
+845,freeride,Ride,SlopeSlayer,77
+846,freestyle,Jones,PowderShredder,425
+847,all-mountain,Ride,SnowBladeMaster,925
+848,splitboard,Arbor,IceCarver,822
+849,freestyle,Never Summer,IceCarver,951
+850,all-mountain,Never Summer,PowderShredder,569
+851,powder,Ride,SlopeSlayer,817
+852,powder,Arbor,SlopeSlayer,106
+853,powder,Salomon,SlopeSlayer,59
+854,splitboard,Burton,PowderShredder,514
+855,freestyle,Ride,PowderShredder,655
+856,freestyle,Never Summer,IceCarver,524
+857,powder,Ride,PowderShredder,647
+858,freestyle,Ride,SlopeSlayer,306
+859,all-mountain,Jones,SnowBladeMaster,761
+860,freestyle,Ride,IceCarver,655
+861,freestyle,Lib Tech,PowderShredder,708
+862,freeride,Burton,IceCarver,390
+863,all-mountain,Ride,MountainThrasher,755
+864,freeride,Lib Tech,MountainThrasher,152
+865,freeride,K2,PowderShredder,998
+866,freeride,Never Summer,MountainThrasher,808
+867,powder,GNU,SlopeSlayer,426
+868,freestyle,Never Summer,IceCarver,761
+869,powder,Salomon,IceCarver,222
+870,powder,Arbor,MountainThrasher,166
+871,all-mountain,Never Summer,SnowBladeMaster,126
+872,powder,Burton,PowderShredder,694
+873,powder,GNU,IceCarver,562
+874,splitboard,Salomon,IceCarver,151
+875,powder,GNU,SlopeSlayer,28
+876,powder,Burton,IceCarver,252
+877,freeride,Capita,IceCarver,292
+878,splitboard,Arbor,PowderShredder,58
+879,freeride,GNU,SnowBladeMaster,872
+880,powder,Never Summer,MountainThrasher,862
+881,freeride,Arbor,SnowBladeMaster,529
+882,freeride,Burton,MountainThrasher,834
+883,all-mountain,Salomon,SnowBladeMaster,606
+884,powder,Ride,PowderShredder,421
+885,powder,Capita,MountainThrasher,961
+886,splitboard,GNU,IceCarver,185
+887,all-mountain,Burton,IceCarver,857
+888,all-mountain,Never Summer,SnowBladeMaster,278
+889,freestyle,Capita,SlopeSlayer,480
+890,splitboard,K2,MountainThrasher,80
+891,all-mountain,Jones,SlopeSlayer,594
+892,freeride,Capita,MountainThrasher,642
+893,freestyle,Lib Tech,SlopeSlayer,536
+894,freeride,Lib Tech,SlopeSlayer,997
+895,freeride,Ride,PowderShredder,825
+896,freeride,Salomon,MountainThrasher,326
+897,freestyle,K2,PowderShredder,318
+898,freeride,Capita,SlopeSlayer,456
+899,freeride,Never Summer,IceCarver,928
+900,all-mountain,GNU,SnowBladeMaster,827
+901,freestyle,Arbor,SnowBladeMaster,650
+902,freeride,Never Summer,PowderShredder,654
+903,freeride,Lib Tech,IceCarver,586
+904,freestyle,Ride,SnowBladeMaster,689
+905,powder,K2,SnowBladeMaster,991
+906,all-mountain,Salomon,IceCarver,644
+907,freestyle,Arbor,SlopeSlayer,872
+908,freestyle,Lib Tech,SlopeSlayer,608
+909,freestyle,Burton,IceCarver,293
+910,freestyle,K2,MountainThrasher,796
+911,all-mountain,Capita,PowderShredder,32
+912,freeride,Jones,MountainThrasher,741
+913,all-mountain,Never Summer,PowderShredder,48
+914,all-mountain,Ride,SnowBladeMaster,337
+915,freeride,GNU,SlopeSlayer,977
+916,all-mountain,Burton,PowderShredder,609
+917,all-mountain,Burton,PowderShredder,254
+918,freeride,GNU,MountainThrasher,682
+919,splitboard,GNU,SlopeSlayer,156
+920,freeride,Lib Tech,SnowBladeMaster,778
+921,splitboard,Burton,SnowBladeMaster,742
+922,freeride,Lib Tech,SnowBladeMaster,633
+923,powder,Never Summer,MountainThrasher,836
+924,freestyle,Arbor,MountainThrasher,875
+925,powder,Capita,PowderShredder,661
+926,powder,K2,PowderShredder,821
+927,freeride,Jones,IceCarver,639
+928,splitboard,K2,MountainThrasher,944
+929,powder,Salomon,MountainThrasher,234
+930,freestyle,Ride,MountainThrasher,572
+931,freeride,GNU,IceCarver,164
+932,freestyle,Arbor,SnowBladeMaster,269
+933,all-mountain,Arbor,SlopeSlayer,729
+934,all-mountain,Lib Tech,MountainThrasher,132
+935,freeride,Arbor,IceCarver,615
+936,powder,Never Summer,IceCarver,231
+937,freestyle,Burton,IceCarver,333
+938,splitboard,Ride,MountainThrasher,208
+939,powder,Never Summer,SnowBladeMaster,932
+940,freestyle,Salomon,SnowBladeMaster,733
+941,powder,Never Summer,PowderShredder,451
+942,powder,Jones,MountainThrasher,406
+943,splitboard,Lib Tech,IceCarver,730
+944,splitboard,Ride,IceCarver,447
+945,splitboard,Jones,SnowBladeMaster,632
+946,freeride,Arbor,MountainThrasher,588
+947,all-mountain,GNU,SlopeSlayer,893
+948,all-mountain,Burton,PowderShredder,285
+949,all-mountain,Capita,IceCarver,784
+950,freestyle,Lib Tech,SnowBladeMaster,376
+951,splitboard,K2,PowderShredder,749
+952,powder,Jones,PowderShredder,563
+953,splitboard,Never Summer,SlopeSlayer,420
+954,powder,Lib Tech,SnowBladeMaster,640
+955,splitboard,Lib Tech,MountainThrasher,674
+956,powder,Arbor,SnowBladeMaster,676
+957,splitboard,GNU,MountainThrasher,585
+958,freeride,Lib Tech,PowderShredder,675
+959,freestyle,K2,MountainThrasher,890
+960,freeride,Never Summer,MountainThrasher,736
+961,powder,K2,MountainThrasher,215
+962,freeride,Ride,MountainThrasher,368
+963,freeride,Ride,MountainThrasher,30
+964,powder,Jones,SlopeSlayer,885
+965,freeride,Never Summer,IceCarver,118
+966,splitboard,Lib Tech,MountainThrasher,412
+967,all-mountain,Arbor,MountainThrasher,45
+968,splitboard,Burton,SlopeSlayer,163
+969,powder,Jones,IceCarver,457
+970,freeride,GNU,IceCarver,234
+971,freeride,Salomon,IceCarver,506
+972,all-mountain,Capita,SlopeSlayer,794
+973,all-mountain,K2,SnowBladeMaster,529
+974,freestyle,Jones,SlopeSlayer,162
+975,freestyle,GNU,MountainThrasher,351
+976,powder,Burton,IceCarver,623
+977,splitboard,Lib Tech,SlopeSlayer,570
+978,freeride,Burton,MountainThrasher,166
+979,powder,Never Summer,SnowBladeMaster,687
+980,all-mountain,Capita,MountainThrasher,206
+981,all-mountain,Salomon,IceCarver,761
+982,freestyle,GNU,PowderShredder,168
+983,freeride,Burton,MountainThrasher,975
+984,splitboard,Salomon,IceCarver,267
+985,freestyle,Ride,PowderShredder,989
+986,all-mountain,Capita,MountainThrasher,205
+987,all-mountain,Capita,IceCarver,253
+988,powder,Capita,MountainThrasher,113
+989,freeride,Salomon,MountainThrasher,614
+990,splitboard,GNU,MountainThrasher,272
+991,freestyle,Burton,PowderShredder,980
+992,all-mountain,Arbor,SnowBladeMaster,912
+993,splitboard,Burton,IceCarver,533
+994,splitboard,Arbor,PowderShredder,238
+995,all-mountain,Ride,IceCarver,920
+996,freeride,Lib Tech,PowderShredder,418
+997,freeride,Salomon,IceCarver,553
+998,splitboard,Jones,MountainThrasher,733
+999,all-mountain,Ride,SlopeSlayer,192
+1000,powder,K2,MountainThrasher,435

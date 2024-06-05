@@ -1,10 +1,10 @@
 package com.customerwebsite.customer.website.Models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Collection;
 
@@ -17,7 +17,7 @@ import java.util.Collection;
 @Table(name = "user")
 public class CustomUserDetails implements UserDetails {
     @Id
-    @GeneratedValue
+//    @GeneratedValue
     private Long id;
 
     @Column(nullable = false, unique = true)

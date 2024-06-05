@@ -20,7 +20,7 @@ public class DatabaseConfiguration {
     private String mainDatasourceUrl;
     @Value("${mainDatasource.username}")
     private String mainDatasourceUsername;
-    @Value("${mainDatasource.password")
+    @Value("${mainDatasource.password}")
     private String mainDatasourcePassword;
 
     @Value("${batchDatasource.driver}")

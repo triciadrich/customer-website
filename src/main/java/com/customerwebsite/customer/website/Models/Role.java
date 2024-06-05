@@ -1,10 +1,11 @@
 package com.customerwebsite.customer.website.Models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 
-import javax.persistence.*;
+
 
 @Entity
 @Getter
@@ -14,7 +15,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Role implements GrantedAuthority {
     @Id
-    @GeneratedValue
+//    @GeneratedValue
     private Long id;
 
     @Column(nullable = false)

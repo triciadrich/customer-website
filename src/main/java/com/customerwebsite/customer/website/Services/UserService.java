@@ -3,6 +3,7 @@ package com.customerwebsite.customer.website.Services;
 import com.customerwebsite.customer.website.Models.CustomUserDetails;
 import com.customerwebsite.customer.website.Models.Role;
 import com.customerwebsite.customer.website.Repositories.UserRepository;
+import jakarta.persistence.EntityNotFoundException;
 import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
@@ -13,7 +14,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.EntityNotFoundException;
+
 import java.util.Collections;
 import java.util.Optional;
 

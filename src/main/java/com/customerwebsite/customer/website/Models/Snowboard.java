@@ -1,9 +1,10 @@
 package com.customerwebsite.customer.website.Models;
 
 import com.customerwebsite.customer.website.Services.CustomerService;
+import jakarta.persistence.*;
 import lombok.*;
 
-import javax.persistence.*;
+
 
 @Entity
 @AllArgsConstructor
@@ -14,7 +15,7 @@ import javax.persistence.*;
 @ToString
 public class Snowboard {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String type;
     private String brand;

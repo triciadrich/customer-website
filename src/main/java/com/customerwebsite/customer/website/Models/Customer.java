@@ -1,8 +1,9 @@
 package com.customerwebsite.customer.website.Models;
 
+import jakarta.persistence.*;
 import lombok.*;
 
-import javax.persistence.*;
+
 
 @Entity
 @AllArgsConstructor
@@ -13,7 +14,7 @@ import javax.persistence.*;
 @Setter
 public class Customer {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String fullName;
     private String emailAddress;
